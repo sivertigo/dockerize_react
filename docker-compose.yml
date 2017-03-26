@@ -1,0 +1,7 @@
+version: '2'
+services:
+    npm: 
+        image: .
+        ports: "3000:3000"
+        volumes:
+            - . : /react-redux-home
